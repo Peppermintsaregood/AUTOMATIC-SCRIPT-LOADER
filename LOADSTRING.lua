@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Peppermintsaregood/AUTOMATIC-SCRIPT-LOADER/main/SOURCE.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Peppermintsaregood/AUTOMATIC-SCRIPT-LOADER/main/SOURCE.lua"))()
