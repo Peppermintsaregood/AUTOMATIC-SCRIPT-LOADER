@@ -73,29 +73,31 @@ UICorner.CornerRadius = UDim.new(0.075000003, 0)
 UICorner.Parent = Frame
 
 wait(1)
-tweenTable(Frame, 3, {
+tweenTable(Frame, 1.5, {
 BackgroundTransparency = 0
 })
-tweenTable(ImageLabel, 3,{
+tweenTable(ImageLabel, 1.5,{
 ImageTransparency = 0
 })
-wait(3)
-tweenTable(ImageLabel, 4, {
+wait(1.5)
+tweenTable(ImageLabel, 2, {
 	Size = UDim2.new(0.5, 0,0.5, 0),
 	Position = UDim2.new(0.249, 0,0.057, 0)
 })
-tweenTable(TextLabel, 4, {
+tweenTable(TextLabel, 2, {
 	Position = UDim2.new(0.5, 0, 0.800000012, 0),
 	Size = UDim2.new(1, 0, 0.400000006, 0)
 })
 typef("Scanning Peppermint's Github repositories for game script...")
-wait(7)
+wait(3)
 -- funcs here
 
 addScript(6576912941, function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Peppermintsaregood/PeppermintsACGGUI/main/Main.lua"))()
 end)
-
+addScript(5580097107, function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Peppermintsaregood/FrappeSnappe/main/loadstring.lua"))()
+end)
 if scriptFound == false then
 	typef("No scripts found for".. game.Name .. "; Deloading UI")
 	wait(3)
