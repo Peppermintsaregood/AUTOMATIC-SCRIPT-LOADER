@@ -47,7 +47,6 @@ Frame.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
 Frame.Size = UDim2.new(0.150000006, 0, 0.400000006, 0)
-Frame.Active = true
 Frame.Transparency = 1
 
 ImageLabel.Parent = Frame
