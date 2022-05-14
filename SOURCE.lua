@@ -34,6 +34,13 @@ local function addScript(placeId, func)
 		tweenTable(Frame, 3, {
 			BackgroundTransparency = 1
 		})
+
+tweenTable(ImageLabel, 3,{
+ImageTransparency =1
+})
+		tweenTable(TextLabel, 3,{
+TextTransparency =1
+})
 		wait(3)
 		ScreenGui:Remove()
 	end
