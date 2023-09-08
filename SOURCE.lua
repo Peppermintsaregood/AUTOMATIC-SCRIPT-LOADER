@@ -21,8 +21,9 @@ local function typef(text)
 end
 local function addScript(placeId, func)
 	if game.PlaceId == tonumber(placeId) then
-spawn(function()
 		scriptFound = true
+spawn(function()
+		
 		spin = false
 		typef("Script found for "..MarketPlaceService:GetProductInfo(placeId).Name.."; Now loading!")
 		func()
