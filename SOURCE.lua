@@ -107,6 +107,7 @@ end)
 addScript("9359839118", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Peppermintsaregood/gss/main/main.lua'))()
 end)
+-- if the script fails to load or the person doesnt have a powerful enough executer we wait then terminated the gui
 if scriptFound == false then
 	typef("No scripts found, Deloading UI")
 	wait(3)
@@ -124,4 +125,6 @@ TextTransparency =1
 	wait(3)
 	ScreenGui:Remove()
 end
+wait(7)
+ScreenGui:Destroy()
 
